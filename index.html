@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8cebb7761398ad63e6dadd276731e3c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8cebb7761398ad63e6dadd276731e3c3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8cebb7761398ad63e6dadd276731e3c3 = L.map(
+                "map_8cebb7761398ad63e6dadd276731e3c3",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_faaf0fcad5eb01f79aef8b63e22ee0e3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_faaf0fcad5eb01f79aef8b63e22ee0e3.addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+            var marker_09d0f64e54f64d51a524610151256866 = L.marker(
+                [12.816714615132, 80.1880770423276],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_34c173bb4fde45e5c4afc495dc2d44d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1d7a3e916663a2d376735c296521e45 = $(`<div id="html_a1d7a3e916663a2d376735c296521e45" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>CODENAME SANCTURY<br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>-<br>     <strong>Website: </strong>https://www.tvsemerald.com/projects/tvs-emerald-lake-shore-siruseri/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>Yes<br>     <strong>Sustainable Housing: </strong>-<br>     <strong>Sustainable Transport: </strong>-<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Transportation, Hospital, Fitness Center, Covered Parking<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>-<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>12.816714615132<br>     <strong>Longitude: </strong>80.1880770423276<br>     </div>`)[0];
+                popup_34c173bb4fde45e5c4afc495dc2d44d1.setContent(html_a1d7a3e916663a2d376735c296521e45);
+            
+        
+
+        marker_09d0f64e54f64d51a524610151256866.bindPopup(popup_34c173bb4fde45e5c4afc495dc2d44d1)
+        ;
+
+        
+    
+    
+            var marker_f66c633d7e51d6bea44329d6abfe5ee1 = L.marker(
+                [12.9980367201491, 80.2163897108167],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_bf83264f5bc70d739b4c452ed8c8469a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73eec17950d75e0377fc0e0d51749f75 = $(`<div id="html_73eec17950d75e0377fc0e0d51749f75" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>PARKHOUSE MEWS<br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>-<br>     <strong>Website: </strong>https://appaswamy.com/flats-for-sale-in-guindy/parkhouse-mews<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>1000 watts back up power for each apartment and 100% back up for common areas.<br>     <strong>Sustainable Housing: </strong>-<br>     <strong>Sustainable Transport: </strong>-<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Gym, Banquet Hall, Mini Theatre, Kids play area and Swimming pool.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>-<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>12.9980367201491<br>     <strong>Longitude: </strong>80.2163897108167<br>     </div>`)[0];
+                popup_bf83264f5bc70d739b4c452ed8c8469a.setContent(html_73eec17950d75e0377fc0e0d51749f75);
+            
+        
+
+        marker_f66c633d7e51d6bea44329d6abfe5ee1.bindPopup(popup_bf83264f5bc70d739b4c452ed8c8469a)
+        ;
+
+        
+    
+    
+            var marker_2021472b239c5fd5485d2f768e444da5 = L.marker(
+                [12.9701811078024, 80.2496785666356],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_f70cea2d53038789212f58e8489968b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c7ca4d5f0ca0b83b8e49398abe1868e = $(`<div id="html_2c7ca4d5f0ca0b83b8e49398abe1868e" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Altezza<br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>-<br>     <strong>Website: </strong>https://appaswamy.com/flats-for-sale-in-omr/altezza<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>has 24/7 power back up & Solar lighting for common areas<br>     <strong>Sustainable Housing: </strong>-<br>     <strong>Sustainable Transport: </strong>-<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Mini Theatre, Fire Alarm, Landscaped Garden, Party Hall, Super MArket<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>-<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>12.9701811078024<br>     <strong>Longitude: </strong>80.2496785666356<br>     </div>`)[0];
+                popup_f70cea2d53038789212f58e8489968b5.setContent(html_2c7ca4d5f0ca0b83b8e49398abe1868e);
+            
+        
+
+        marker_2021472b239c5fd5485d2f768e444da5.bindPopup(popup_f70cea2d53038789212f58e8489968b5)
+        ;
+
+        
+    
+    
+            var marker_5be923d4c0f67ca00a45004f1891b39e = L.marker(
+                [12.8701939700181, 80.2038397801257],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_e905ff67a078972cf6370f2eeac6623c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb7ef71eea60039e34a7469f17a90dc = $(`<div id="html_3bb7ef71eea60039e34a7469f17a90dc" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Casagrand Elinor <br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>-<br>     <strong>Website: </strong>https://www.casagrand.co.in/residential/ongoing-projects-chennai-navalur/casagrand-elinor/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>has 24/7 power back up<br>     <strong>Sustainable Housing: </strong>-<br>     <strong>Sustainable Transport: </strong>-<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>1. indoor amenities - gym, library, working spaces, salon 2. Swimming pool amenities 3. Outdoor amenities- pet park, kids park, air filling station, gardens, benches etc.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>-<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>12.8701939700181<br>     <strong>Longitude: </strong>80.2038397801257<br>     </div>`)[0];
+                popup_e905ff67a078972cf6370f2eeac6623c.setContent(html_3bb7ef71eea60039e34a7469f17a90dc);
+            
+        
+
+        marker_5be923d4c0f67ca00a45004f1891b39e.bindPopup(popup_e905ff67a078972cf6370f2eeac6623c)
+        ;
+
+        
+    
+    
+            var marker_e4b3264377435b7a1f8bd19039d0471a = L.marker(
+                [13.02458620794, 80.2735182396533],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_61bf28c29158ccf2458ea1400b17eb67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa44d1a4feac2eb92771a53b1aa0eea = $(`<div id="html_9fa44d1a4feac2eb92771a53b1aa0eea" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Azure The Oceanic <br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>TN/29/Building/0531/2022<br>     <strong>Website: </strong>https://appaswamy.com/property/34/azure-the-oceanic <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>has 24/7 power back up<br>     <strong>Sustainable Housing: </strong>-<br>     <strong>Sustainable Transport: </strong>-<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Roof top infinity pool and kids paddle pool Yoga and meditation deck at Seashell Pavilion BBQ grill and counter on level 17 Life style storage areas<br>     <strong>Public Places promoting health and well being: </strong>Prestigious schools like Chettinad Vidyashram and Sishya are located in the vicinity<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>-<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>13.02458620794<br>     <strong>Longitude: </strong>80.2735182396533<br>     </div>`)[0];
+                popup_61bf28c29158ccf2458ea1400b17eb67.setContent(html_9fa44d1a4feac2eb92771a53b1aa0eea);
+            
+        
+
+        marker_e4b3264377435b7a1f8bd19039d0471a.bindPopup(popup_61bf28c29158ccf2458ea1400b17eb67)
+        ;
+
+        
+    
+    
+            var marker_07ce4e15495debb4f11291b60d194246 = L.marker(
+                [17.395529917492, 78.3549989513664],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_340b6efcebe291d5d0a51ad1acdd050d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fcb6abd867f0906e81fc8403e2195e2 = $(`<div id="html_2fcb6abd867f0906e81fc8403e2195e2" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Rajapushap Provincia <br>     <strong>City: </strong>Hyderabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P02400002487<br>     <strong>Website: </strong>https://rajapushpa.in/projects/residential/provincia.php?utm_source=Google&utm_medium=Search&utm_campaign={Nearby-Broad-RI}&utm_term=flats%20for%20sale%20in%20nanakramguda&utm_content={adcontent}&device=c&gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZdtenbJQKhWDF7QVBh-33ZRNukikphQ2uGXRsIIZjMYM4yfPY7fWRgaAnCcEALw_wcB<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>has 24/7 power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 4 kms<br>     <strong>Water Conservation: </strong>-<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>clubhouse, Indoor/Outdoor Sports Amenities, 80% Open spaces, with jogging & cycling tracks, a swimming pool at the podium level and a temperature-controlled pool on the Club terrace, children’s play area,<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>17.395529917492<br>     <strong>Longitude: </strong>78.3549989513664<br>     </div>`)[0];
+                popup_340b6efcebe291d5d0a51ad1acdd050d.setContent(html_2fcb6abd867f0906e81fc8403e2195e2);
+            
+        
+
+        marker_07ce4e15495debb4f11291b60d194246.bindPopup(popup_340b6efcebe291d5d0a51ad1acdd050d)
+        ;
+
+        
+    
+    
+            var marker_e3e87f662d131a858e384a9271425168 = L.marker(
+                [17.47979468516301, 78.3150182802043],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_12b13eac3c9da69179e932f52cb73de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa9e6184b5849419d84c6861e0f5b99a = $(`<div id="html_fa9e6184b5849419d84c6861e0f5b99a" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Vertex Kingston Park<br>     <strong>City: </strong>Hyderabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P02400002807<br>     <strong>Website: </strong>https://vertexhomes.com/kingston-park-villa/?srd=5ff960a04443ae563b85307a&gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZf-hhjuGXR3atTjNYqc8iI_H9uq12_EkIVUXt8kzCw-<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>has 24/7 power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Swimming pool, supermarket, yoga room, gym<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>17.47979468516301<br>     <strong>Longitude: </strong>78.3150182802043<br>     </div>`)[0];
+                popup_12b13eac3c9da69179e932f52cb73de2.setContent(html_fa9e6184b5849419d84c6861e0f5b99a);
+            
+        
+
+        marker_e3e87f662d131a858e384a9271425168.bindPopup(popup_12b13eac3c9da69179e932f52cb73de2)
+        ;
+
+        
+    
+    
+            var marker_73aeda08314aecbf6c6db63b28eae9e4 = L.marker(
+                [17.4321655532812, 78.3249075376158],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_4ec85af360016aa4fa4f2113f9643746 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3b7fd14e28e62bc55bdc814563fe1ae = $(`<div id="html_d3b7fd14e28e62bc55bdc814563fe1ae" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Jayabheri Nirvana <br>     <strong>City: </strong>Hyderabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P 02400003566.<br>     <strong>Website: </strong>https://www.jayabherigroup.com/thenirvana/3bhk-apartments-in-financial-district/?utm_source=google&utm_medium=cpc&utm_campaign={Project_Location_New}&utm_term=flats%20for%20sale%20in%20nanakramguda&keyword=flats%20for%20sale%20in%20nanakramguda&matchtype=b&device=c&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--5b28qolQV5RjqC9Xkgg7P2PL81VBSLvYSgWLVU7GvjkGAXEljA6wxoCx0AQAvD_BwE <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 km<br>     <strong>Water Conservation: </strong>Water Softening System<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Gym, guest rooms, coffee shops, salon, basketball court<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>17.4321655532812<br>     <strong>Longitude: </strong>78.3249075376158<br>     </div>`)[0];
+                popup_4ec85af360016aa4fa4f2113f9643746.setContent(html_d3b7fd14e28e62bc55bdc814563fe1ae);
+            
+        
+
+        marker_73aeda08314aecbf6c6db63b28eae9e4.bindPopup(popup_4ec85af360016aa4fa4f2113f9643746)
+        ;
+
+        
+    
+    
+            var marker_6d84ca26703b08fd2df7853f284445a7 = L.marker(
+                [17.4091275788773, 78.3485213446313],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_15aef4e04a6bdfad81a6149ae04d88d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6f014254acb373a5a603c53528b7854 = $(`<div id="html_f6f014254acb373a5a603c53528b7854" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>ASBL Spectra<br>     <strong>City: </strong>Hyderabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P02400003071<br>     <strong>Website: </strong>https://asbl.in/spectra/location<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 7 km<br>     <strong>Water Conservation: </strong>Water Softening System<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Pet Park, Basketball Court, Outdoor Gym, Pool deck, creche recess<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>17.4091275788773<br>     <strong>Longitude: </strong>78.3485213446313<br>     </div>`)[0];
+                popup_15aef4e04a6bdfad81a6149ae04d88d9.setContent(html_f6f014254acb373a5a603c53528b7854);
+            
+        
+
+        marker_6d84ca26703b08fd2df7853f284445a7.bindPopup(popup_15aef4e04a6bdfad81a6149ae04d88d9)
+        ;
+
+        
+    
+    
+            var marker_0a50c4ec0bb237ef589f275557e1dbfa = L.marker(
+                [17.3956117277664, 78.3688571243834],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_f970701759d1e0e672ce0364ca66502e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8ee0900232a5989088c62c3566a0c5f = $(`<div id="html_a8ee0900232a5989088c62c3566a0c5f" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Rami Reddy Towers<br>     <strong>City: </strong>Hyderabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P02400000820<br>     <strong>Website: </strong>https://www.anuhar.com/ramireddy-towers/index.html <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Terrace Pool, Gym, Indoor Games, Meditation Hall, Car Wash Area<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>17.3956117277664<br>     <strong>Longitude: </strong>78.3688571243834<br>     </div>`)[0];
+                popup_f970701759d1e0e672ce0364ca66502e.setContent(html_a8ee0900232a5989088c62c3566a0c5f);
+            
+        
+
+        marker_0a50c4ec0bb237ef589f275557e1dbfa.bindPopup(popup_f970701759d1e0e672ce0364ca66502e)
+        ;
+
+        
+    
+    
+            var marker_3b7b02a0e56dff202d4d1c045cb014bc = L.marker(
+                [19.1836630419451, 72.940795637913],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_325043a3b43bebbfcfc4693ab6f14240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebf126db20dd5ff2c80a256ab7bcdf77 = $(`<div id="html_ebf126db20dd5ff2c80a256ab7bcdf77" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Prestige City, Forest Hills <br>     <strong>City: </strong>Mumbai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P51800077457<br>     <strong>Website: </strong>https://www.prestigeconstructions.com/prestige-forest-hills/?utm_source=google&utm_medium=search&utm_campaign=Mum_-_PFH&tracker_code=W1GMQRDaV0ikmo4waF0CCGKI&campid=21532614192&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Pool Deck, Sports Arena, Multi Level club<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>19.1836630419451<br>     <strong>Longitude: </strong>72.940795637913<br>     </div>`)[0];
+                popup_325043a3b43bebbfcfc4693ab6f14240.setContent(html_ebf126db20dd5ff2c80a256ab7bcdf77);
+            
+        
+
+        marker_3b7b02a0e56dff202d4d1c045cb014bc.bindPopup(popup_325043a3b43bebbfcfc4693ab6f14240)
+        ;
+
+        
+    
+    
+            var marker_78996c0345b619dd863648dd5cce82a5 = L.marker(
+                [18.9735777386185, 72.8318756937275],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_449d57166f11d3f687a102114539a1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa46ff529c4445c806785c9641049c7 = $(`<div id="html_ffa46ff529c4445c806785c9641049c7" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Monte South <br>     <strong>City: </strong>Mumbai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P51800001681<br>     <strong>Website: </strong>https://montesouth.in/?utm_source=google&utm_medium=south_mumbai_location_cpc&utm_campaign=161786000122116724&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--2etvir9TI-8Gpa5b8dX1ipJnhzDz22_LcM5X2GmYoNqo-T6YDYFSxoCw8MQAvD_BwE <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 3 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Swimming Pool, Yoga Studio, Jain Temple, Lounge, Palm Court<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.9735777386185<br>     <strong>Longitude: </strong>72.8318756937275<br>     </div>`)[0];
+                popup_449d57166f11d3f687a102114539a1e6.setContent(html_ffa46ff529c4445c806785c9641049c7);
+            
+        
+
+        marker_78996c0345b619dd863648dd5cce82a5.bindPopup(popup_449d57166f11d3f687a102114539a1e6)
+        ;
+
+        
+    
+    
+            var marker_2ca4d03c58145e8c354342bb78b29225 = L.marker(
+                [19.0488007224832, 72.9077744937292],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_028078ffc266dc7d73ab6445fb9afe7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6608ec357e092f04bb053eb51084c720 = $(`<div id="html_6608ec357e092f04bb053eb51084c720" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>One Meraki <br>     <strong>City: </strong>Mumbai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P51800011606<br>     <strong>Website: </strong>https://onemeraki.com/?utm_source=search_Oct24&utm_medium=cpc&utm_campaign=search_OcTInv&srd=67010ea15d8def2eec3ac617&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--3xL3rZZTBo6djf09dTVuDyK9Tocumub-aIbikR4bAeq5h_arw85ChoC-BAQAvD_BwE <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 4 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Outdoor Pool, Turf, Aqua Bikes<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>19.0488007224832<br>     <strong>Longitude: </strong>72.9077744937292<br>     </div>`)[0];
+                popup_028078ffc266dc7d73ab6445fb9afe7a.setContent(html_6608ec357e092f04bb053eb51084c720);
+            
+        
+
+        marker_2ca4d03c58145e8c354342bb78b29225.bindPopup(popup_028078ffc266dc7d73ab6445fb9afe7a)
+        ;
+
+        
+    
+    
+            var marker_c4d2436e0af4e8a6c31acaed84248fa6 = L.marker(
+                [19.7355631041107, 72.7888846880896],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_6572c8c4f4a0c92c66fce4a5f0d1767c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce0a98c5f6c53dbdeb51189c29107dff = $(`<div id="html_ce0a98c5f6c53dbdeb51189c29107dff" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Happinest Palghar Project 2 <br>     <strong>City: </strong>Mumbai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P99000026225<br>     <strong>Website: </strong>https://www.mahindralifespaces.com/real-estate-properties/mumbai-property/mahindra-happinest-palghar-2/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Badminton Court, Basketball Court, Gym, Skating, Gazebo<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>19.7355631041107<br>     <strong>Longitude: </strong>72.7888846880896<br>     </div>`)[0];
+                popup_6572c8c4f4a0c92c66fce4a5f0d1767c.setContent(html_ce0a98c5f6c53dbdeb51189c29107dff);
+            
+        
+
+        marker_c4d2436e0af4e8a6c31acaed84248fa6.bindPopup(popup_6572c8c4f4a0c92c66fce4a5f0d1767c)
+        ;
+
+        
+    
+    
+            var marker_0c2c3cb7d62c4d9ad25dfa4dd01fab61 = L.marker(
+                [19.2801345430102, 72.8865308109321],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_a824dc6678da679c86c25ab140a64e00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11e5289811459a6f08ffc249d51e01c6 = $(`<div id="html_11e5289811459a6f08ffc249d51e01c6" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>JP Infa Starlife <br>     <strong>City: </strong>Mumbai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P51700054275<br>     <strong>Website: </strong>https://www.tvsemerald.com/projects/tvs-emerald-lake-shore-siruseri/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Temple, Kids Pool, Banquet Lawn, Gym, Business Centre<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>19.2801345430102<br>     <strong>Longitude: </strong>72.8865308109321<br>     </div>`)[0];
+                popup_a824dc6678da679c86c25ab140a64e00.setContent(html_11e5289811459a6f08ffc249d51e01c6);
+            
+        
+
+        marker_0c2c3cb7d62c4d9ad25dfa4dd01fab61.bindPopup(popup_a824dc6678da679c86c25ab140a64e00)
+        ;
+
+        
+    
+    
+            var marker_fe79c67f5f8f9bcb0fee11a858f7598b = L.marker(
+                [18.6645744590067, 73.7081680439805],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_4681405d18146231cdd0c98b80cb9940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67eb7c4d78093bd9c48acf4e214757a2 = $(`<div id="html_67eb7c4d78093bd9c48acf4e214757a2" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Lodha Belmondo, Gahunje <br>     <strong>City: </strong>Pune<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P52100000416<br>     <strong>Website: </strong>https://belmondogahunje.com<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Golf course, riverside promenade, clubhouse, Gym.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.6645744590067<br>     <strong>Longitude: </strong>73.7081680439805<br>     </div>`)[0];
+                popup_4681405d18146231cdd0c98b80cb9940.setContent(html_67eb7c4d78093bd9c48acf4e214757a2);
+            
+        
+
+        marker_fe79c67f5f8f9bcb0fee11a858f7598b.bindPopup(popup_4681405d18146231cdd0c98b80cb9940)
+        ;
+
+        
+    
+    
+            var marker_610b4c148a075b8b231649ce904d7cc0 = L.marker(
+                [18.5758185965458, 73.9079006447535],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_c7d4fb5f4e4b2e696a979541695c34b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_047ec594b9256e60a26216eb5b448bd3 = $(`<div id="html_047ec594b9256e60a26216eb5b448bd3" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>VNSVL Shubh Nirvana <br>     <strong>City: </strong>Pune<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P52100029039<br>     <strong>Website: </strong>https://www.shubhnirvana.com<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Gym, swimming pool, landscaped gardens.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Offers family-friendly programs and charity drives. <br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.5758185965458<br>     <strong>Longitude: </strong>73.9079006447535<br>     </div>`)[0];
+                popup_c7d4fb5f4e4b2e696a979541695c34b2.setContent(html_047ec594b9256e60a26216eb5b448bd3);
+            
+        
+
+        marker_610b4c148a075b8b231649ce904d7cc0.bindPopup(popup_c7d4fb5f4e4b2e696a979541695c34b2)
+        ;
+
+        
+    
+    
+            var marker_577b27e33233f537bada4dafcd648c9f = L.marker(
+                [18.53339082798, 73.9307151109156],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_63b947ad26deaf884d90d660a469c51d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_248ee7dcb8e1dc90bb628a50c3cea04c = $(`<div id="html_248ee7dcb8e1dc90bb628a50c3cea04c" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Shubh Tristar <br>     <strong>City: </strong>Pune<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P52100047388<br>     <strong>Website: </strong>https://shubhtristar.com<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Indoor games, gym, meditation area.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.53339082798<br>     <strong>Longitude: </strong>73.9307151109156<br>     </div>`)[0];
+                popup_63b947ad26deaf884d90d660a469c51d.setContent(html_248ee7dcb8e1dc90bb628a50c3cea04c);
+            
+        
+
+        marker_577b27e33233f537bada4dafcd648c9f.bindPopup(popup_63b947ad26deaf884d90d660a469c51d)
+        ;
+
+        
+    
+    
+            var marker_5dee58af4ad7520fee0937d9383bae45 = L.marker(
+                [18.6314559285451, 73.747701973781],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_b3c0e03a704b0d9aeb40b03360f7a4c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7703290384c5d3f3f6fa62812d63f213 = $(`<div id="html_7703290384c5d3f3f6fa62812d63f213" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Rohan Ananta Phase III<br>     <strong>City: </strong>Pune<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P52100024128<br>     <strong>Website: </strong>https://www.rohanbuilders.com/ananta-phase-3 <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 3 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Power backup, car parking, landscaped garden.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.6314559285451<br>     <strong>Longitude: </strong>73.747701973781<br>     </div>`)[0];
+                popup_b3c0e03a704b0d9aeb40b03360f7a4c8.setContent(html_7703290384c5d3f3f6fa62812d63f213);
+            
+        
+
+        marker_5dee58af4ad7520fee0937d9383bae45.bindPopup(popup_b3c0e03a704b0d9aeb40b03360f7a4c8)
+        ;
+
+        
+    
+    
+            var marker_0ac61fa1ab8d929cf5c282a15260ec1f = L.marker(
+                [18.5904323392524, 73.702128866736],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_dff37504da64ee0c3112e5006c784732 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9290415a68d5755b8c42de0f6fb5e7f = $(`<div id="html_a9290415a68d5755b8c42de0f6fb5e7f" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Kohinoor Famville<br>     <strong>City: </strong>Pune<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>P52100051623<br>     <strong>Website: </strong>https://kohinoorpune.com/famville <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 3 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, children’s play area, amphitheater.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>18.5904323392524<br>     <strong>Longitude: </strong>73.702128866736<br>     </div>`)[0];
+                popup_dff37504da64ee0c3112e5006c784732.setContent(html_a9290415a68d5755b8c42de0f6fb5e7f);
+            
+        
+
+        marker_0ac61fa1ab8d929cf5c282a15260ec1f.bindPopup(popup_dff37504da64ee0c3112e5006c784732)
+        ;
+
+        
+    
+    
+            var marker_4e9aed644a3db4a801714c28d5654348 = L.marker(
+                [13.0465357885522, 77.6013399396536],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_c4f3863a02036949de4039110830fe75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f9d6a6324087be3427ad9ae42b731f = $(`<div id="html_31f9d6a6324087be3427ad9ae42b731f" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Prestige Misty Waters<br>     <strong>City: </strong>Bangalore<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/KN/170731/000098<br>     <strong>Website: </strong>https://www.prestigeconstructions.com/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, landscaped gardens, swimming pool, gym, jogging track, children’s play area, and 24/7 security.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Emphasis on eco-friendly living, hosting community events, yoga classes, and environmental workshops to enhance resident interactions<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>13.0465357885522<br>     <strong>Longitude: </strong>77.6013399396536<br>     </div>`)[0];
+                popup_c4f3863a02036949de4039110830fe75.setContent(html_31f9d6a6324087be3427ad9ae42b731f);
+            
+        
+
+        marker_4e9aed644a3db4a801714c28d5654348.bindPopup(popup_c4f3863a02036949de4039110830fe75)
+        ;
+
+        
+    
+    
+            var marker_2ad4b390b66d63dc20dec95d2018622f = L.marker(
+                [13.0434478400439, 77.6419324936196],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_d0ae2c23ac5f59e490b1bde1a749ceec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c865415b1f6b32ecf23f99f17a3df441 = $(`<div id="html_c865415b1f6b32ecf23f99f17a3df441" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong> Kumar Prospera <br>     <strong>City: </strong>Bangalore<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PRM/KA/RERA/1251/446/PR/171102/001500<br>     <strong>Website: </strong>Website- https://www.kumarworld.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, gymnasium, swimming pool, landscaped gardens, children’s play area, amphitheater, and indoor games.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Offers workshops for children, family-friendly programs, art and craft sessions, and charity drives for community building<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>13.0434478400439<br>     <strong>Longitude: </strong>77.6419324936196<br>     </div>`)[0];
+                popup_d0ae2c23ac5f59e490b1bde1a749ceec.setContent(html_c865415b1f6b32ecf23f99f17a3df441);
+            
+        
+
+        marker_2ad4b390b66d63dc20dec95d2018622f.bindPopup(popup_d0ae2c23ac5f59e490b1bde1a749ceec)
+        ;
+
+        
+    
+    
+            var marker_9665ca514a5a7edf1ed1936cfbf1fdb7 = L.marker(
+                [13.0437820235249, 77.6354181954728],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_31291c84da8fa75965c5aa55277bbe4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2025a53ac536d300aa0765a094440c9e = $(`<div id="html_2025a53ac536d300aa0765a094440c9e" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong> Casagrand Orlena <br>     <strong>City: </strong>Bangalore<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PRM/KA/RERA/1251/309/PR/190406/002544<br>     <strong>Website: </strong>Website- https://www.casagrand.co.in/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 4 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Pet zone, swimming pool, gym, indoor games, rooftop gardens, amphitheater, and multipurpose hall.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Encourages green practices, with eco-awareness drives and social gatherings to build a sense of community among residents<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>13.0437820235249<br>     <strong>Longitude: </strong>77.6354181954728<br>     </div>`)[0];
+                popup_31291c84da8fa75965c5aa55277bbe4f.setContent(html_2025a53ac536d300aa0765a094440c9e);
+            
+        
+
+        marker_9665ca514a5a7edf1ed1936cfbf1fdb7.bindPopup(popup_31291c84da8fa75965c5aa55277bbe4f)
+        ;
+
+        
+    
+    
+            var marker_b765885f6d01b3874e3e47ba8537bd12 = L.marker(
+                [12.9964273144941, 77.7174676555563],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_fcfa67b2fa860a2e99c14cca19dd013e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ccf1f60f26a957441898f46ace4926 = $(`<div id="html_d7ccf1f60f26a957441898f46ace4926" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Total Environment Pursuit of a Radical Rhapsody<br>     <strong>City: </strong>Bangalore<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/KN/170731/000319<br>     <strong>Website: </strong>https://www.total-environment.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Gym, music and art rooms, indoor games, rooftop gardens, swimming pool, organic gardens, and a reading lounge.<br>     <strong>Public Places promoting health and well being: </strong>Vidya Niketan (2 km), Canadian International School (3.5 km), Aster CMI Hospital (3.2 km), Columbia Asia Hospital Hebbal (4 km)<br>     <strong>Community Engagement Initiatives: </strong>Focuses on sustainability with organic gardening, recycling workshops, and resident- hosted events to create a cohesive community<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>12.9964273144941<br>     <strong>Longitude: </strong>77.7174676555563<br>     </div>`)[0];
+                popup_fcfa67b2fa860a2e99c14cca19dd013e.setContent(html_d7ccf1f60f26a957441898f46ace4926);
+            
+        
+
+        marker_b765885f6d01b3874e3e47ba8537bd12.bindPopup(popup_fcfa67b2fa860a2e99c14cca19dd013e)
+        ;
+
+        
+    
+    
+            var marker_25627c993f41f682598859867601ed0e = L.marker(
+                [13.1100372237278, 77.5595448243099],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_b948c876d7879a4ab71c0125533a7f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08136386ffdeede2004f49831923f251 = $(`<div id="html_08136386ffdeede2004f49831923f251" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Ajmera Lakeside Paradise<br>     <strong>City: </strong>Chennai<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/KN/170731/000250<br>     <strong>Website: </strong>https://www.ajmera.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 kms<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Lakeside jogging track, landscaped gardens, clubhouse, children’s play area, amphitheater, and meditation zone.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Organizes fitness sessions, regular family gatherings, health camps, and skill-building workshops for residents<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>13.1100372237278<br>     <strong>Longitude: </strong>77.5595448243099<br>     </div>`)[0];
+                popup_b948c876d7879a4ab71c0125533a7f9a.setContent(html_08136386ffdeede2004f49831923f251);
+            
+        
+
+        marker_25627c993f41f682598859867601ed0e.bindPopup(popup_b948c876d7879a4ab71c0125533a7f9a)
+        ;
+
+        
+    
+    
+            var marker_76e6cee1ae741348f04876d6611013cb = L.marker(
+                [22.4290952621863, 88.2712421245016],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_aade4288a6c73610c4cfeea37e0448c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b57e1b61b6f7d4699e11b5d0295d676c = $(`<div id="html_b57e1b61b6f7d4699e11b5d0295d676c" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Gems City <br>     <strong>City: </strong>Kolkata<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>WBRERA/P/SOU/2023/000351<br>     <strong>Website: </strong>http://www.gemscity.in/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>40,000 sq. ft. lifestyle club, jogging and cycling tracks, exclusive kids’ play areas, indoor and outdoor sports facilities, and convenience stores.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>AC bus service to metro stations, on-call services (doctor, pharmacy), and community gatherings<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.4290952621863<br>     <strong>Longitude: </strong>88.2712421245016<br>     </div>`)[0];
+                popup_aade4288a6c73610c4cfeea37e0448c0.setContent(html_b57e1b61b6f7d4699e11b5d0295d676c);
+            
+        
+
+        marker_76e6cee1ae741348f04876d6611013cb.bindPopup(popup_aade4288a6c73610c4cfeea37e0448c0)
+        ;
+
+        
+    
+    
+            var marker_59b0d472921755b96c104a2bd63c877b = L.marker(
+                [22.4152112541211, 88.2820987226481],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_b3791aa12d6a4a70153cfe923ec437bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc35b40a5b725851fe1b9ff3d0194fa6 = $(`<div id="html_dc35b40a5b725851fe1b9ff3d0194fa6" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Swayam City<br>     <strong>City: </strong>Kolkata<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>WBRERA/P/SOU/2018/000010<br>     <strong>Website: </strong>https://www.swayamcity.com/  <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 3 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Olympic-sized swimming pool, games courts, clubhouse, and landscaped gardens.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>Regular social events, gardening activities, and workshops for residents on various life skills<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.4152112541211<br>     <strong>Longitude: </strong>88.2820987226481<br>     </div>`)[0];
+                popup_b3791aa12d6a4a70153cfe923ec437bf.setContent(html_dc35b40a5b725851fe1b9ff3d0194fa6);
+            
+        
+
+        marker_59b0d472921755b96c104a2bd63c877b.bindPopup(popup_b3791aa12d6a4a70153cfe923ec437bf)
+        ;
+
+        
+    
+    
+            var marker_0a5b94ca171bb1104ae89cc957fb18ab = L.marker(
+                [22.4179355108261, 88.4078795956652],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_cfffdbbde3c78fbf045d8adb7de37a7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d65cf02a08066c712da5e0aa5b1575c3 = $(`<div id="html_d65cf02a08066c712da5e0aa5b1575c3" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Multicon Prestige Residences<br>     <strong>City: </strong>Kolkata<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>WBRERA/P/SOU/2022/000358<br>     <strong>Website: </strong>https://www.multicongroup.in/  <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Fitness center, swimming pool, landscaped gardens, and dedicated children’s area.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.4179355108261<br>     <strong>Longitude: </strong>88.4078795956652<br>     </div>`)[0];
+                popup_cfffdbbde3c78fbf045d8adb7de37a7e.setContent(html_d65cf02a08066c712da5e0aa5b1575c3);
+            
+        
+
+        marker_0a5b94ca171bb1104ae89cc957fb18ab.bindPopup(popup_cfffdbbde3c78fbf045d8adb7de37a7e)
+        ;
+
+        
+    
+    
+            var marker_81c5caae813876d34233edc1e85bc246 = L.marker(
+                [22.5532465850643, 88.3944422565616],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_3525493a57bd701569ce3dd9118188e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_263f11a7be15a3b422caad4d40803557 = $(`<div id="html_263f11a7be15a3b422caad4d40803557" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>P Vinayak<br>     <strong>City: </strong>Kolkata<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>WBRERA/P/SOU/2023/000092<br>     <strong>Website: </strong>https://psgroup.in/  <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Rooftop garden, multipurpose court, fitness center, and swimming pool.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.5532465850643<br>     <strong>Longitude: </strong>88.3944422565616<br>     </div>`)[0];
+                popup_3525493a57bd701569ce3dd9118188e3.setContent(html_263f11a7be15a3b422caad4d40803557);
+            
+        
+
+        marker_81c5caae813876d34233edc1e85bc246.bindPopup(popup_3525493a57bd701569ce3dd9118188e3)
+        ;
+
+        
+    
+    
+            var marker_ae87c3e0cfbe2deae5001202e6aa9e94 = L.marker(
+                [22.3865623486389, 88.4246868128621],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_94189f70efd83be3a65e7e434228d993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67dd49c1b526e2b01706309c0154d0cd = $(`<div id="html_67dd49c1b526e2b01706309c0154d0cd" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Eden Roopkatha<br>     <strong>City: </strong>Kolkata <br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>WBRERA/P/SOU/2023/000512<br>     <strong>Website: </strong>https://www.edengroup.in/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, children’s play area, and ample parking space.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.3865623486389<br>     <strong>Longitude: </strong>88.4246868128621<br>     </div>`)[0];
+                popup_94189f70efd83be3a65e7e434228d993.setContent(html_67dd49c1b526e2b01706309c0154d0cd);
+            
+        
+
+        marker_ae87c3e0cfbe2deae5001202e6aa9e94.bindPopup(popup_94189f70efd83be3a65e7e434228d993)
+        ;
+
+        
+    
+    
+            var marker_560087f151eed0409b848e1130b5b502 = L.marker(
+                [23.0232509354949, 72.4598379821902],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_099b1f18e7e9f7ceb8c373e05d02fb8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6c2fd26bfa79d9c246617947c54d8e6 = $(`<div id="html_e6c2fd26bfa79d9c246617947c54d8e6" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Elenza Green <br>     <strong>City: </strong>Ahmedabad <br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/GJ/AHMEDABAD/AUDA/RAA10142/290721<br>     <strong>Website: </strong>https://www.housing.com/  <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Swimming pool, clubhouse, gym<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>23.0232509354949<br>     <strong>Longitude: </strong>72.4598379821902<br>     </div>`)[0];
+                popup_099b1f18e7e9f7ceb8c373e05d02fb8b.setContent(html_e6c2fd26bfa79d9c246617947c54d8e6);
+            
+        
+
+        marker_560087f151eed0409b848e1130b5b502.bindPopup(popup_099b1f18e7e9f7ceb8c373e05d02fb8b)
+        ;
+
+        
+    
+    
+            var marker_474f903e3ed9c6f6f5d79bb29aea7e41 = L.marker(
+                [22.9960518852845, 72.4662722263702],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_4e412493a65073d811b048f21dba48a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e930ee1791f03ddf7783ff4f13d3a3d2 = $(`<div id="html_e930ee1791f03ddf7783ff4f13d3a3d2" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Orchid Legacy<br>     <strong>City: </strong>Ahmedabad <br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/GJ/AHMEDABAD/AUDA/RAA10203/200421<br>     <strong>Website: </strong>https://www.99acres.com/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 0.5 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Landscaped gardens, amphitheater, meditation area<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>22.9960518852845<br>     <strong>Longitude: </strong>72.4662722263702<br>     </div>`)[0];
+                popup_4e412493a65073d811b048f21dba48a2.setContent(html_e930ee1791f03ddf7783ff4f13d3a3d2);
+            
+        
+
+        marker_474f903e3ed9c6f6f5d79bb29aea7e41.bindPopup(popup_4e412493a65073d811b048f21dba48a2)
+        ;
+
+        
+    
+    
+            var marker_f0a1f4e021e19e5353fbb567437e4ea9 = L.marker(
+                [23.0568048739956, 72.5512940938295],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_5c61f98ee731a0ad43715fcc6fd309b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7733158d353109b06d97e39812350fb2 = $(`<div id="html_7733158d353109b06d97e39812350fb2" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Venus Deshna<br>     <strong>City: </strong>Ahmedabad <br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/GJ/AHMEDABAD/AUDA/RAA10672/150921<br>     <strong>Website: </strong>https://www.magicbricks.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Multipurpose hall, children’s play area, jogging track<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>23.0568048739956<br>     <strong>Longitude: </strong>72.5512940938295<br>     </div>`)[0];
+                popup_5c61f98ee731a0ad43715fcc6fd309b5.setContent(html_7733158d353109b06d97e39812350fb2);
+            
+        
+
+        marker_f0a1f4e021e19e5353fbb567437e4ea9.bindPopup(popup_5c61f98ee731a0ad43715fcc6fd309b5)
+        ;
+
+        
+    
+    
+            var marker_1d1d989c12a75ce8ebc8bf07c4b45ffe = L.marker(
+                [23.1163052555801, 72.5576555380119],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_5a24d68d7c6f307d2fc640ee936d11c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bd1f8de635e48b9d9381348d4897f07 = $(`<div id="html_6bd1f8de635e48b9d9381348d4897f07" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Godrej Garden City <br>     <strong>City: </strong>Ahmedabad<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/GJ/AHMEDABAD/AUDA/MAA10947/201121<br>     <strong>Website: </strong> https://www.housing.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Green spaces, sports arena, clubhouse<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>23.1163052555801<br>     <strong>Longitude: </strong>72.5576555380119<br>     </div>`)[0];
+                popup_5a24d68d7c6f307d2fc640ee936d11c7.setContent(html_6bd1f8de635e48b9d9381348d4897f07);
+            
+        
+
+        marker_1d1d989c12a75ce8ebc8bf07c4b45ffe.bindPopup(popup_5a24d68d7c6f307d2fc640ee936d11c7)
+        ;
+
+        
+    
+    
+            var marker_18602c8a4e4ba5f267a26e2908a47165 = L.marker(
+                [23.1395481764541, 72.5454295687018],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_164cf0d2553aab72ff8228b9c71a8519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c6d2d0bf56d7f95a521eb113e18cc7a = $(`<div id="html_3c6d2d0bf56d7f95a521eb113e18cc7a" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Pacific North Enclave <br>     <strong>City: </strong>Ahmedabad <br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>PR/GJ/AHMEDABAD/AUDA/RAA11012/240621<br>     <strong>Website: </strong>https://www.99acres.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, library, gymnasium<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>-<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>23.1395481764541<br>     <strong>Longitude: </strong>72.5454295687018<br>     </div>`)[0];
+                popup_164cf0d2553aab72ff8228b9c71a8519.setContent(html_3c6d2d0bf56d7f95a521eb113e18cc7a);
+            
+        
+
+        marker_18602c8a4e4ba5f267a26e2908a47165.bindPopup(popup_164cf0d2553aab72ff8228b9c71a8519)
+        ;
+
+        
+    
+    
+            var marker_3f0fc80723ddb758102a786df78c1f13 = L.marker(
+                [28.6579522990358, 77.194677671184],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_63dbc714350d62c32cddb7874e305507 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4cd6c7f14791e2571fd5cbaa6c6f41a = $(`<div id="html_c4cd6c7f14791e2571fd5cbaa6c6f41a" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Unity The Amaryllis<br>     <strong>City: </strong>Delhi<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>DL-RERA-HQ-0053<br>     <strong>Website: </strong>https://www.theamaryllis.in/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, Skywalk, gym, multiple sports courts, and a swimming pool.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>Yes<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>28.6579522990358<br>     <strong>Longitude: </strong>77.194677671184<br>     </div>`)[0];
+                popup_63dbc714350d62c32cddb7874e305507.setContent(html_c4cd6c7f14791e2571fd5cbaa6c6f41a);
+            
+        
+
+        marker_3f0fc80723ddb758102a786df78c1f13.bindPopup(popup_63dbc714350d62c32cddb7874e305507)
+        ;
+
+        
+    
+    
+            var marker_e74208c098f9d01f589f99096628a635 = L.marker(
+                [28.6573617714985, 77.2317855988188],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_19bd95ca22eb58f4cdc1ac47eaa4bcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7a87b2031dd9a30397cf83a46ad8dcd = $(`<div id="html_f7a87b2031dd9a30397cf83a46ad8dcd" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Omaxe Chandni Chowk<br>     <strong>City: </strong>Delhi<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>Not listed<br>     <strong>Website: </strong>https://www.omaxe.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 1  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Retail spaces, green building certifications, dedicated floors for food courts, and valet services.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>Yes<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>28.6573617714985<br>     <strong>Longitude: </strong>77.2317855988188<br>     </div>`)[0];
+                popup_19bd95ca22eb58f4cdc1ac47eaa4bcb8.setContent(html_f7a87b2031dd9a30397cf83a46ad8dcd);
+            
+        
+
+        marker_e74208c098f9d01f589f99096628a635.bindPopup(popup_19bd95ca22eb58f4cdc1ac47eaa4bcb8)
+        ;
+
+        
+    
+    
+            var marker_8059cb61d2b86b0710ceb376763441ca = L.marker(
+                [28.5560467072088, 77.027519753527],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_dfe14677c03bf48fff1b238493e8dad1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57e8d257b13e3abce985ab1ee50446c4 = $(`<div id="html_57e8d257b13e3abce985ab1ee50446c4" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Orchid The Consulate Apartments<br>     <strong>City: </strong>Delhi<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>DL-RERA-HQ-0032<br>     <strong>Website: </strong>https://www.orchidgroup.in/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 4 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Clubhouse, landscaped gardens, amphitheater, and children's play areas.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>Yes<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>28.5560467072088<br>     <strong>Longitude: </strong>77.027519753527<br>     </div>`)[0];
+                popup_dfe14677c03bf48fff1b238493e8dad1.setContent(html_57e8d257b13e3abce985ab1ee50446c4);
+            
+        
+
+        marker_8059cb61d2b86b0710ceb376763441ca.bindPopup(popup_dfe14677c03bf48fff1b238493e8dad1)
+        ;
+
+        
+    
+    
+            var marker_fac0e7f22995cd63723d5814208d380a = L.marker(
+                [28.531385353368, 77.2771617958539],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_49b2e50d0308b50bd3447199698cee05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe5f6e8e73379b88cf1d9a7c68c238c5 = $(`<div id="html_fe5f6e8e73379b88cf1d9a7c68c238c5" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Godrej South Estate <br>     <strong>City: </strong>Delhi<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>DLRERA2019P0003<br>     <strong>Website: </strong>https://www.godrejproperties.com/<br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 3 km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Infinity pool, state-of-the-art gym, multi-sport courts, and spa facilities.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>Yes<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>28.531385353368<br>     <strong>Longitude: </strong>77.2771617958539<br>     </div>`)[0];
+                popup_49b2e50d0308b50bd3447199698cee05.setContent(html_fe5f6e8e73379b88cf1d9a7c68c238c5);
+            
+        
+
+        marker_fac0e7f22995cd63723d5814208d380a.bindPopup(popup_49b2e50d0308b50bd3447199698cee05)
+        ;
+
+        
+    
+    
+            var marker_5337d2e94a6ea841d78143949b6a8c99 = L.marker(
+                [28.7384900237253, 77.0726310629881],
+                {}
+            ).addTo(map_8cebb7761398ad63e6dadd276731e3c3);
+        
+    
+        var popup_d218d136f5c37b9131073314774985c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24df7b4bf0f6801d9128843cb7d8226e = $(`<div id="html_24df7b4bf0f6801d9128843cb7d8226e" style="width: 100.0%; height: 100.0%;">     <strong>Project: </strong>Maxvel Al Vista<br>     <strong>City: </strong>Delhi<br><br>          <strong>Project Details:</strong><br>     <strong>Rera Reference No.: </strong>DLRERA2020P0040<br>     <strong>Website: </strong>https://www.maxvelgroup.com/ <br><br>      <strong>Sustainability Features:</strong><br>     <strong>Energy Efficiency: </strong>100% power back up<br>     <strong>Sustainable Housing: </strong>Yes<br>     <strong>Sustainable Transport: </strong>Within 2.4  km<br>     <strong>Water Conservation: </strong>Yes<br>     <strong>Green Spaces: </strong>-<br><br>          <strong>Amenities and Community Initiatives:</strong><br>     <strong>Basic Amenities: </strong>Indoor games room, 24/7 security, landscaped gardens, and fitness zones.<br>     <strong>Public Places promoting health and well being: </strong>-<br>     <strong>Community Engagement Initiatives: </strong>-<br>     <strong>Waste Management System: </strong>Yes<br><br>          <strong>Certifications:</strong><br>     <strong>Completion Certificate: </strong>Under Construction<br>     <strong>Green Building Certification: </strong>-<br><br>      <strong>Location:</strong><br>     <strong>Latitude: </strong>28.7384900237253<br>     <strong>Longitude: </strong>77.0726310629881<br>     </div>`)[0];
+                popup_d218d136f5c37b9131073314774985c0.setContent(html_24df7b4bf0f6801d9128843cb7d8226e);
+            
+        
+
+        marker_5337d2e94a6ea841d78143949b6a8c99.bindPopup(popup_d218d136f5c37b9131073314774985c0)
+        ;
+
+        
+    
+</script>
+</html>
